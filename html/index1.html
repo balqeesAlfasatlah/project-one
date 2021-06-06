@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            h1{text-align: center; color : white ;background-color: rgb(231, 118, 80); margin: 20px; padding:10px;}
+            main{text-align: center;}
+            footer{color: white; background-color: tan; text-align: center; margin-top: 80px; padding: 5px;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Class 1 Lab</h1>
+        </header>
+        <main> 
+          <img style ="width: 200px; margin: 20px;" src="https://st.depositphotos.com/1001009/3088/v/600/depositphotos_30881693-stock-illustration-schoolboy-with-homework.jpg" alt="student ">
+          <p style="color: antiquewhite; background-color: chocolate; padding: 10px; margin-left:400px; margin-right: 400px;">Whats your name ?</p>
+          <p style="color: white; background-color: darksalmon; padding: 10px;margin-left:300px; margin-right: 300px; ">Are you finish your assignments ? </p>
+          <p style="color: white; background-color: darkgray; padding: 10px;margin-left:200px; margin-right: 200px; ">I suppose that are you tired now right ? </p>
+          <p style="color: cornsilk; background-color: crimson;padding: 10px;margin-left:100px; margin-right: 100px; ">I am sure that you are hungry right? </p>
+          <img width="60px;"  src="https://image.similarpng.com/very-thumbnail/2020/09/Happy-smiley-face-on-transparent-background-PNG.png">
+          <img width="60px;" style="margin-left: 50px; margin-right: 50px;" src="https://image.similarpng.com/very-thumbnail/2020/09/Happy-smiley-face-on-transparent-background-PNG.png">
+          <img width="60px;" src="https://image.similarpng.com/very-thumbnail/2020/09/Happy-smiley-face-on-transparent-background-PNG.png">
+        </main>
+        <footer>recived all at &copy; 2021</footer>
+        <script>
+            let name = prompt('Whats your name ?');
+            alert("Welcom to our website " + name);
+
+            let lab = prompt('are you finish your assignments ?');
+            if(lab == "yes") {
+                alert(lab + '! great good job ^^');
+            }else{
+                alert(lab + '! go and finish it ');
+            }
+
+            let status = prompt('I suppose that are you tired now right?');
+            if(status == "yes") {
+                alert(status + " I know but you will have the rest of the day free");
+            }else{
+                alert(status + " go and finish your assignments ok  ");
+            }
+    
+            let food = prompt('I am sure that you are hungry now right?');
+            if(food == "yes") {
+                alert(food + "! you can go to eat some snakes ^^");
+            }else{
+                alert(food + "! then go and do your homework ");
+            }
+
+            alert('I am ' + name + ' I did my best today in the assignment and I would like to go for eat now bye ^^');
+
+            console.log('Whats your name ? ' + name);
+            console.log('Are you finish your assignments ' + lab);
+            console.log('I suppose that are you tired now right ? ' + status);
+            console.log('I am sure that you are hungry right? ' + food);
+        </script>
+    </body>
+</html>
